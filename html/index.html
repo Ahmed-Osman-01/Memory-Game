@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <div class="icons-container">
+      <i class="fa-solid fa-bomb icon" data-name="bomb"></i>
+      <i class="fa-solid fa-bomb" data-name="bomb"></i>
+      <i class="fas fa-paw" data-name="paw"></i>
+      <i class="fas fa-paw" data-name="paw"></i>
+      <i class="fas fa-otter" data-name="otter"></i>
+      <i class="fas fa-otter" data-name="otter"></i>
+      <i class="fas fa-hippo" data-name="hippo"></i>
+      <i class="fas fa-hippo" data-name="hippo"></i>
+      <i class="fas fa-dog" data-name="dog"></i>
+      <i class="fas fa-dog" data-name="dog"></i>
+      <i class="fas fa-kiwi-bird" data-name="kiwi-bird"></i>
+      <i class="fas fa-kiwi-bird" data-name="kiwi-bird"></i>
+      <i class="fas fa-horse-head" data-name="horse-head"></i>
+      <i class="fas fa-horse-head" data-name="horse-head"></i>
+      <i class="fas fa-spider" data-name="spider"></i>
+      <i class="fas fa-spider" data-name="spider"></i>
+      <i class="fas fa-horse" data-name="horse"></i>
+      <i class="fas fa-horse" data-name="horse"></i>
+      <i class="fas fa-fish" data-name="fish"></i>
+      <i class="fas fa-fish" data-name="fish"></i>
+      <i class="fas fa-feather-alt" data-name="feather"></i>
+      <i class="fas fa-feather-alt" data-name="feather"></i>
+      <i class="fas fa-crow" data-name="crow"></i>
+      <i class="fas fa-crow" data-name="crow"></i>
+      <i class="fas fa-cat" data-name="cat"></i>
+      <i class="fas fa-cat" data-name="cat"></i>
+      <i class="fas fa-dragon" data-name="dragon"></i>
+      <i class="fas fa-dragon" data-name="dragon"></i>
+      <i class="fas fa-frog" data-name="frog"></i>
+      <i class="fas fa-frog" data-name="frog"></i>
+      <i class="fas fa-landmark" data-name="landmark"></i>
+      <i class="fas fa-landmark" data-name="landmark"></i>
+      <i class="far fa-angry" data-name="angry"></i>
+      <i class="far fa-angry" data-name="angry"></i>
+      <i class="fas fa-baseball-ball" data-name="baseball"></i>
+      <i class="fas fa-baseball-ball" data-name="baseball"></i>
+      <i class="fas fa-bicycle" data-name="bicycle"></i>
+      <i class="fas fa-bicycle" data-name="bicycle"></i>
+      <i class="fas fa-bone" data-name="bone"></i>
+      <i class="fas fa-bone" data-name="bone"></i>
+      <i class="fas fa-broom" data-name="broom"></i>
+      <i class="fas fa-broom" data-name="broom"></i>
+      <i class="fas fa-bullhorn" data-name="bullhorn"></i>
+      <i class="fas fa-bullhorn" data-name="bullhorn"></i>
+      <i class="fas fa-candy-cane" data-name="candy"></i>
+      <i class="fas fa-candy-cane" data-name="candy"></i>
+      <i class="fas fa-chess-rook" data-name="rook"></i>
+      <i class="fas fa-chess-rook" data-name="rook"></i>
+      <i class="fas fa-dice-d20" data-name="dice"></i>
+      <i class="fas fa-dice-d20" data-name="dice"></i>
+      <i class="fas fa-exclamation-triangle" data-name="triangle"></i>
+      <i class="fas fa-exclamation-triangle" data-name="triangle"></i>
+      <i class="fas fa-faucet" data-name="faucet"></i>
+      <i class="fas fa-faucet" data-name="faucet"></i>
+      <i class="fas fa-football-ball" data-name="football"></i>
+      <i class="fas fa-football-ball" data-name="football"></i>
+      <i class="fas fa-ghost" data-name="ghost"></i>
+      <i class="fas fa-ghost" data-name="ghost"></i>
+      <i class="fab fa-hotjar" data-name="hotjar"></i>
+      <i class="fab fa-hotjar" data-name="hotjar"></i>
+    </div>
+
+    <div class="start-screen">
+      <div class="info">
+        <div>Please Enter Your Name</div>
+        <input type="text" id="name" placeholder="Name" />
+      </div>
+      <p>Please Choose The Hardness</p>
+      <div class="hardness">
+        <span class="level" id="easy" data-number="10">Easy</span>
+        <span class="level" id="medium" data-number="20">Medium</span>
+        <span class="level" id="hard" data-number="40">Hard</span>
+        <span class="level" id="very-hard" data-number="60">Very Hard</span>
+      </div>
+      <div class="leader-board">
+        <h2>Leader Board</h2>
+        <div class="scores"></div>
+      </div>
+    </div>
+    <div class="game-container">
+      <div class="header">
+        <div class="name">Hello: <span></span></div>
+        <div class="timer">Time: <span>0:00</span></div>
+        <div class="mistakes">Mistakes count: <span>0</span></div>
+      </div>
+      <div class="cards-container"></div>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
